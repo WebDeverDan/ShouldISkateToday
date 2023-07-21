@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ShouldISkateToday/static/css/main.c21c5aa9.css",
+    "main.js": "/ShouldISkateToday/static/js/main.acec4617.js",
+    "static/media/rainy.png": "/ShouldISkateToday/static/media/rainy.ce7b305b98a62cb45d4b.png",
+    "index.html": "/ShouldISkateToday/index.html",
+    "main.c21c5aa9.css.map": "/ShouldISkateToday/static/css/main.c21c5aa9.css.map",
+    "main.acec4617.js.map": "/ShouldISkateToday/static/js/main.acec4617.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c21c5aa9.css",
+    "static/js/main.acec4617.js"
+  ]
+}
