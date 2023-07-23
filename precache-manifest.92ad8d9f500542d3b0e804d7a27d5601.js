@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "70fd250e2ebeee09da8e",
+    "revision": "22a204f80df5a7e8518d",
     "url": "/ShouldISkateToday/static/css/main.3411c314.chunk.css"
   },
   {
-    "revision": "70fd250e2ebeee09da8e",
-    "url": "/ShouldISkateToday/static/js/main.faf00fae.chunk.js"
+    "revision": "22a204f80df5a7e8518d",
+    "url": "/ShouldISkateToday/static/js/main.193aa18c.chunk.js"
   },
   {
     "revision": "c4e8484d75222e3510eb",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/ShouldISkateToday/static/media/photo-1615066037299-7fd7fe32686b.34436f37.avif"
   },
   {
-    "revision": "3f2fca8718315615bdedb4aa93c45f9d",
+    "revision": "11bb1081399fec689f1be53481a832eb",
     "url": "/ShouldISkateToday/index.html"
   }
 ];

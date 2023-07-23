@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ShouldISkateToday/precache-manifest.141c767f42a23481d6d7fd5ee675c02d.js"
+  "/ShouldISkateToday/precache-manifest.92ad8d9f500542d3b0e804d7a27d5601.js"
 );
 
 workbox.clientsClaim();
