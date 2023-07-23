@@ -17,7 +17,7 @@ function App() {
   const [hiddenSlider, setSliderToHiddenClass] = useState("hidden");
   const [hiddenWeather, setWeatherDetailsToHiddenClass] = useState("hidden");
   const [hiddenNext, setNextButtonToHiddenClass] = useState("block");
-  const [emotion, setSliderValue] = useState(0);
+  const [emotion, setSliderValue] = useState(1);
 
   const url = `https://api.openweathermap.org/data/2.5/weather?zip=${location},us&units=imperial&appid=60e9ee923c45e087f45389019a259b46`;
   const location_input = (
@@ -89,7 +89,7 @@ function App() {
       "Squall",
       "Tornado",
       "Drizzle",
-      "Thunderstorm",
+      "Thunderstorm"
     ];
     const great_weather = ["Clear"];
     const alright_weather = ["Fog", "Clouds"];
@@ -118,9 +118,7 @@ function App() {
     } else if (alright_weather.includes(weather_data) && emotion == 2) {
       setAdvice(<p>Weather looks alright, but take it easy out there!</p>);
     } else if (alright_weather.includes(weather_data) && emotion == 1) {
-      setAdvice(
-        <p>Weather looks alright, but you should get some rest today!</p>
-      );
+      setAdvice(<p>Weather looks alright, but you should get some rest today!</p>);
     }
   };
 
@@ -203,37 +201,3 @@ function App() {
 
 export default App;
 
-// const photo = {
-
-// }
-
-// const rainyPhoto = {
-//   "--background-photo": '/assets/rainy.png'
-// }
-
-// const snowyPhoto = {
-//   "--background-photo": '/assets/snow.png'
-// }
-
-// const sunnyPhoto = {
-//   "--background-photo": '/assets/sunny.png'
-// }
-
-// const overcastPhoto = {
-//   "--background-photo": '/assets/overcast.png'
-// }
-
-// const setBackgroundPicture = () => {
-//   if ((data.weather[0].description).contains('rain')) {
-//   // set background photo to rainy one
-//   "--background-photo": '/assets/rainy.png'
-//   } else if ((data.weather[0].description).contains('snow')) {
-//   // set background photo to snowy one
-
-//   } else if ((data.weather[0].description).contains('sun')) {
-//   // set background photo to sunny one
-
-//   } else if ((data.weather[0].description).contains('overcast')) {
-//   // set background photo to overcast one
-//   }
-// };
