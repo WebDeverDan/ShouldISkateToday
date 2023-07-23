@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import { Button } from "react-bootstrap";
 import RangeSlider from "react-bootstrap-range-slider";
-import { default as Fade } from 'react-fade'
 
 function App() {
   const [apiData, setApiData] = useState({});
