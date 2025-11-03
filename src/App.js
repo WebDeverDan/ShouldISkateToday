@@ -230,7 +230,7 @@ function App() {
             <h2>{apiData.name}</h2>
           </div>
           <div className="temp">
-            {apiData.main ? <h1>{apiData.main.temp.toFixed()}°F</h1> : null}
+            {apiData.main ? <h1>{apiData.main.temp.toFixed()} °F</h1> : null}
           </div>
           <div className="description">
             {apiData.weather ? (
