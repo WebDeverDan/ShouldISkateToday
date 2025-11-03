@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ShouldISkateToday/static/css/main.e3931e21.css",
-    "main.js": "/ShouldISkateToday/static/js/main.971c706e.js",
+    "main.js": "/ShouldISkateToday/static/js/main.0b18cb40.js",
     "static/media/photo-1615066037299-7fd7fe32686b.avif": "/ShouldISkateToday/static/media/photo-1615066037299-7fd7fe32686b.e3f12491ca1acd934116.avif",
     "index.html": "/ShouldISkateToday/index.html",
     "main.e3931e21.css.map": "/ShouldISkateToday/static/css/main.e3931e21.css.map",
-    "main.971c706e.js.map": "/ShouldISkateToday/static/js/main.971c706e.js.map"
+    "main.0b18cb40.js.map": "/ShouldISkateToday/static/js/main.0b18cb40.js.map"
   },
   "entrypoints": [
     "static/css/main.e3931e21.css",
-    "static/js/main.971c706e.js"
+    "static/js/main.0b18cb40.js"
   ]
 }
